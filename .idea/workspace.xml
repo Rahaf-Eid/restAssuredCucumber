@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e720bb3d-38a4-48e5-81ba-f5034011024f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiConfiguration/cofig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiConfiguration/propertiesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/apiConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/restExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Suites/restAssuredSuite/GetPostSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/authenticationBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/features/Comments.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/features/Get_Post.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/runner/GetPostRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/GetPostSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/MyStepComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/authProductsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/deletePutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/initializeAPI.java" afterDir="false" />
+    <list default="true" id="e720bb3d-38a4-48e5-81ba-f5034011024f" name="Changes" comment="rest assured practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/steps/authProductsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/authProductsSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +28,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: authProducts.executor": "Run",
+    "Cucumber Java.Scenario: GET with authentication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -64,7 +46,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: GET with authentication">
     <configuration name="Feature: authProducts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" />
@@ -84,8 +66,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: GET with authentication" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" />
+      <option name="GLUE" value="restAssured.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="restTest" />
+      <option name="NAME_FILTER" value="^GET with authentication$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^GET with authentication$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GET with authentication" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: GET with authentication" />
         <item itemvalue="Cucumber Java.Feature: authProducts" />
       </list>
     </recent_temporary>
@@ -106,6 +109,19 @@
       <option name="presentableId" value="Default" />
       <updated>1702837532054</updated>
     </task>
+    <task id="LOCAL-00001" summary="rest assured practice">
+      <option name="closed" value="true" />
+      <created>1702839357722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702839357722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rest assured practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest assured practice" />
   </component>
 </project>

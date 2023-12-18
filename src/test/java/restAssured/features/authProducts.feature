@@ -4,8 +4,9 @@ Feature: operation practice
     Given I perform an authentication for "auth/login" with a body of login
       | email            | password |
       | nilson@email.com | nilson   |
-    And I perform a "GET" op for "products/1"
-    Then I should see the "name" as "Product001" for "products"
+    And I perform a "GET" op for "products"
+#    Then I should see the "name" as "Product001" for "products"
+  Then validate schema
 
   Scenario: POST call with authentication
     Given I perform an authentication for "auth/login" with a body of login

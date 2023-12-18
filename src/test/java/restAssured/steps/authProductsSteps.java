@@ -15,6 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
@@ -63,7 +64,7 @@ public class authProductsSteps {
         extension.printResponse(response);
         if(endpoint.equalsIgnoreCase("transactions")) {
             transactions transactions = response.getBody().as(transactions.class);
-            assertThat(transactions.getCost(),is( Integer.parseInt(expected)));
+            assertThat(transactions.getCost(),is(Integer.parseInt(expected)));
         } else if(endpoint.equalsIgnoreCase("products")) {
             products products = response.getBody().as(products.class);
             assertThat(products.getName(),is(expected));
@@ -104,8 +105,16 @@ public class authProductsSteps {
     @Then("I should have the status code as {string}")
     public void iShouldHaveTheStatusCodeAs (String statusCode){
         String responseCode = String.valueOf(response.then().extract().statusCode());
-        Assert.assertEquals(responseCode, statusCode);
+        Assert.assertEquals(responseCode,statusCode);
+    }
+
+    @Then("validate schema")
+    public void validateSchema (){
+        String json = response.getBody().asString();
+        assertThat(json,matchesJsonSchemaInClasspath("productsSchema.json"));
     }
 }
+
+
 
 
