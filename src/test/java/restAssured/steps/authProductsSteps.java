@@ -111,9 +111,11 @@ public class authProductsSteps {
     @Then("validate schema")
     public void validateSchema (){
         String json = response.getBody().asString();
-        assertThat(json,matchesJsonSchemaInClasspath("productsSchema.json"));
+        assertThat(json,matchesJsonSchemaInClasspath("restAssured/productsSchema.json"));
     }
 }
+
+
 
 
 

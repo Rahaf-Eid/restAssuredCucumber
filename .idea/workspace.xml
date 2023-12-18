@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e720bb3d-38a4-48e5-81ba-f5034011024f" name="Changes" comment="rest assured practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/features/authProducts.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/steps/authProductsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/steps/authProductsSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +35,17 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/rahafeid/IdeaProjects/restTest/src/test/java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/restAssured" />
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: GET with authentication">
@@ -117,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702839357722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rest assured practice">
+      <option name="closed" value="true" />
+      <created>1702891783556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702891783556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
