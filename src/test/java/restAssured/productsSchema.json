@@ -1,0 +1,284 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "locationId": {
+          "type": "integer"
+        },
+        "familyId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "cost",
+        "quantity",
+        "locationId",
+        "familyId"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "locationId": {
+          "type": "integer"
+        },
+        "familyId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "cost",
+        "quantity",
+        "locationId",
+        "familyId"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "locationId": {
+          "type": "integer"
+        },
+        "familyId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "cost",
+        "quantity",
+        "locationId",
+        "familyId"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "cost": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "locationId": {
+          "type": "integer"
+        },
+        "familyId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "cost",
+        "quantity",
+        "locationId",
+        "familyId"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  ]
+}
